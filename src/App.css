@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/599/295/large_2x/sweet-candy-copy-space-frame-with-lollipops-on-pink-background-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    background-color: rgb(248, 226, 246);
+    border-radius: 10px;
+    width: 40rem;
+    margin-top: 50px;
+    margin-left: 350px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,h4{
+    text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card{
+    margin-left: 120px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3{
+    color: brown;
 }
